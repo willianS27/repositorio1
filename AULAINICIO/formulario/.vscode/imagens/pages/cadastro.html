@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+
+<body>
+    <style>
+        .linhaBord{
+            margin: 5px;
+        }
+    </style>
+    <header>
+        <nav>
+            <a href="index.html"></a><img src="Logo.Centec.jpeg" height="20px" alt="Logo Centec">
+            <a href="/pages/cadrastro.html"></a><img src="imagens/pages/cadastro.html" height="20px" alt="">
+        </nav>
+        <hr>
+    </header>
+<main>
+    <h1>Cadrastro de NovoS Alunos</h1>
+    <hr>
+    <form action="">
+        <fieldset>
+        <div>
+        <label for="">Nome:</label>
+        <input type="text" placeholder="Digite seu nome">
+        <label for="">Sobrenome:</label>
+        <input type="text" placeholder="Digite seu Sobrenome">
+        </div>
+        <div>
+            <label for="">Genero: </label>
+            <input type="radio" name="genero">Masculino
+            <input type="radio" name="genero">Femenino
+            <input type="radio" name="genero">Outros
+            <input type="text" placeholder="outros" disabled>
+        </div>
+        <div>
+            <label for="">Dt: Nascimento:</label>
+            <input type="date" name="" id="">
+            <label for="">Nacionalidade</label>
+            <select name="" id="">
+                <option value="" >Brasil</option>
+                <option value="">Argentina</option>
+                <option value="">Bolivia</option>
+                <option value="">Colombia</option>
+                <option value="">Paraguai</option>
+                <option value="">Chile</option>
+                <option value="">Venezuela</option>
+            </select>
+            <select name="" id="" disabled>
+                <option value="">Estados</option>
+                <option value="">Amazonas</option>
+                <option value="">São Paulo</option>
+            </select>
+        </div>
+        <hr>
+        <label for="">CPF/:</label>
+        <input type="number" name="" id="">
+        <label for="">RG</label>
+        <input type="number">
+    </fieldset>
+    <fieldset>
+        <legend>Dados Login</legend>
+        <div class="LinhaBorda">
+            <label for="">Usuario</label>
+            <input type="text" placeholder="Digite o nome de usuário">
+            <label for="">Password</label>
+            
+            <abbr title="Senha de 6 Digitos Alfanúmerico"><input type="password" name="" placeholder="Digite sua Senha"></abbr>
+            <abbr title="Senha de 6 Digitos Alfanúmerico"><input type="password" name="" placeholder="Repita sua Senha"></abbr>
+        </div>
+    </fieldset>
+    <div class="LinhaBorda">
+        <button type="submit">Salvar</button>
+        <button type="reset">Limpar</button>
+    </div>
+    </form>
+</main>
+<footer>
+    <hr>
+    <h4>Links Uteis</h4>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.youtube.com/">Youtube</a>
+</footer>
+
+</body>
+</html>
