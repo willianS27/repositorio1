@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+
+footer{
+    background-color: #045c9c;
+    min-height: 200px;
+    color: #fff;
+}
+
+main{
+margin-right: 5px;
+margin-left: 5px;
+background-color: rgba(127, 165, 189,0.3);
+}
+
+header{
+    background-color: rgba(228, 100, 36,0.5);
+    border-bottom: 2px solid gray;
+}
+
+.linhaBorda{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+
+label{
+    color: blueviolet;
+}
+ 
+.corH1{
+    color: blue;
+}
+.centro{
+    text-align: center;
+}

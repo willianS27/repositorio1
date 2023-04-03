@@ -4,29 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>home</title>
 </head>
 
 <body>
     <style>
-        .linhaBord{
-            margin: 5px;
-        }
+    .linhaBoda{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgba(127,165, 189, 0.3);
+}
+label{
+    color: blueviolet;
+}
+.corH1{
+    color: blue;
+}
+.centro{
+    text-align: center;
+}
+
     </style>
     <header>
         <nav>
             <a href="index.html"></a><img src="Logo.Centec.jpeg" height="20px" alt="Logo Centec">
-            <a href="/pages/cadrastro.html"></a><img src="imagens/pages/cadastro.html" height="20px" alt="">
+            <a href="pages/cadrastro.html"></a><img src="imagens/pages/cadastro.html" height="20px" alt="">
         </nav>
         <hr>
     </header>
 <main>
-    <h1>Cadrastro de NovoS Alunos</h1>
+    <div class="linhaBorda">
+    <h1>Cadrastro de Novos Alunos</h1>
+    </div>
     <hr>
-    <form action="">
+    <form>
         <fieldset>
         <div>
-        <label for="">Nome:</label>
+        <label for="">Nome:</label> 
         <input type="text" placeholder="Digite seu nome">
         <label for="">Sobrenome:</label>
         <input type="text" placeholder="Digite seu Sobrenome">
@@ -65,7 +80,7 @@
     </fieldset>
     <fieldset>
         <legend>Dados Login</legend>
-        <div class="LinhaBorda">
+        <div class="LinhaBorda" >
             <label for="">Usuario</label>
             <input type="text" placeholder="Digite o nome de usuário">
             <label for="">Password</label>
@@ -81,7 +96,6 @@
     </form>
 </main>
 <footer>
-    <hr>
     <h4>Links Uteis</h4>
     <a href="https://www.google.com/">Google</a>
     <a href="https://www.youtube.com/">Youtube</a>
