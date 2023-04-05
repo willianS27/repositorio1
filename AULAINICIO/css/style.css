@@ -27,7 +27,8 @@ header{
 }
 
 label{
-    color: blueviolet;
+    color: darkblue;
+    font-weight: 600;
 }
  
 .corH1{
@@ -35,4 +36,62 @@ label{
 }
 .centro{
     text-align: center;
+    color: black;
 }
+
+.imgLogo:hover{
+    justify-content: center;
+    width: 150px;
+}
+
+.separacao{
+    padding-bottom: 5px;
+}
+
+.botaoPesquisa{
+    border: 1px solid#e46424;
+    border-radius: 0px 7px 0px 7px;
+    background-color: #e46424
+    color #fff;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.botaoPesquisa:hover{
+    background-color: transparent;
+    color: #e46424;
+}
+
+.classDiv{
+    margin: 3px 5px;
+    color: #045c9c;
+}
+
+input[type="radio"]{
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #e46424;
+    border-radius: 10px;
+    width: 14px;
+    height: 14px;
+    margin: 0px 2 px;
+
+}
+
+input[type="radio"]:checked{
+    background-color: #e46424;
+    border-color: white;
+}
+
+input, select{
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    color: darkblue;
+    font-size: 16px;
+    padding: 1px;
+}
+input:disabled{
+    background-color: lightgray;
+}
+input[type="text"]: fo

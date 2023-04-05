@@ -19,7 +19,7 @@ label{
     color: blueviolet;
 }
 .corH1{
-    color: blue;
+    color: rgb(0, 60, 255);
 }
 .centro{
     text-align: center;
@@ -34,23 +34,24 @@ label{
         <hr>
     </header>
 <main>
-    <div class="linhaBorda">
+    <div class="centro">
     <h1>Cadrastro de Novos Alunos</h1>
     </div>
     <hr>
-    <form>
+    <form class="separado">
         <fieldset>
-        <div>
+            <legend>Dados Pessoais</legend>
+        <div class="classDiv">
         <label for="">Nome:</label> 
         <input type="text" placeholder="Digite seu nome">
         <label for="">Sobrenome:</label>
         <input type="text" placeholder="Digite seu Sobrenome">
         </div>
-        <div>
+        <div class="classDiv">
             <label for="">Genero: </label>
-            <input type="radio" name="genero">Masculino
-            <input type="radio" name="genero">Femenino
-            <input type="radio" name="genero">Outros
+            <input type="radio" name="genero"><label for="">Masculino</label>
+            <input type="radio" name="genero"><label for="">Femenino</label>
+            <input type="radio" name="genero"><label for="">outros</label>
             <input type="text" placeholder="outros" disabled>
         </div>
         <div>
@@ -73,33 +74,54 @@ label{
             </select>
         </div>
         <hr>
-        <label for="">CPF/:</label>
+        <div class="classDiv">
+        <label for="">CPF: </label>
         <input type="number" name="" id="">
-        <label for="">RG</label>
+        <label for="">RG: </label>
         <input type="number">
+        </div>
     </fieldset>
     <fieldset>
         <legend>Dados Login</legend>
         <div class="LinhaBorda" >
-            <label for="">Usuario</label>
+            <label for="">Usuário: </label>
             <input type="text" placeholder="Digite o nome de usuário">
-            <label for="">Password</label>
+            <label for="">Password: </label>
             
             <abbr title="Senha de 6 Digitos Alfanúmerico"><input type="password" name="" placeholder="Digite sua Senha"></abbr>
             <abbr title="Senha de 6 Digitos Alfanúmerico"><input type="password" name="" placeholder="Repita sua Senha"></abbr>
         </div>
     </fieldset>
-    <div class="LinhaBorda">
+    <div class="ClassDiv">
         <button type="submit">Salvar</button>
         <button type="reset">Limpar</button>
     </div>
     </form>
+    <form class="separacao" action="">
+        <fieldset>
+            <legend>Dados de Endereço</legend>
+
+            <div>
+                <label for="">CEP</label>
+                <Input type="number">
+                    <button class="botao">Pesquisa</button>
+                    <button class="botao">Limpar</button>
+            </div>
+        </fieldset>
+        <div class="ClassDiv">
+            <button class="botao">Salvar</button>
+            <button class="botao">limpar</button>
+        </div>
+    </form>
 </main>
 <footer>
     <h4>Links Uteis</h4>
-    <a href="https://www.google.com/">Google</a>
-    <a href="https://www.youtube.com/">Youtube</a>
+    <div class="centro">
+    <a href="https://www.google.com/"></a><img class="espaco" width="50px" src="../google2.png" alt="LogoGooglr">
+    <a href="https://www.youtube.com/"></a><img class="espaco" width="50px" src="../youtube1.jpeg" alt="LogoYoutube">
+    </div>
 </footer>
+
 
 </body>
 </html>
