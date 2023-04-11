@@ -1,0 +1,24 @@
+body{
+color: black;
+background-color: lightblue;
+border-color: cadetblue;
+}
+
+.cabecalho{
+    border: 5px 2px solid: bisque;
+    background-color: gray;
+    border-radius: 20px;
+    flex: ::content;
+    flex-wrap: wrap;
+}
+.filho{
+color: rgb(22, 74, 121);
+text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+.nav{
+    background-color: rgb(255, 145, 0);
+}
